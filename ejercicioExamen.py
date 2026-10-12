@@ -17,4 +17,5 @@ print(f"4.Resultados de Slicing: ")
 
 #estudiantes.Slicing([0:3:0])
 #print(estudiantes)
+print(f" segundo punto: {estudiantes[:3]}")
 print(f"Lista totalmente invertida: {estudiantes[::-1]}")
