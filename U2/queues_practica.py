@@ -13,8 +13,8 @@ print("Turnos emitidos en la fila del banco:")
 for turno in cola_turnos:
     print(f"  - {turno}")
 
-print("\nIniciando atención en ventanilla\n")
-
+print("Iniciando atención en ventanilla:")
+print("")
 # 4. Procesar la atención en ventanilla (Desencolar - FIFO)
 while cola_turnos:
     cliente_actual = cola_turnos.popleft()
@@ -22,7 +22,8 @@ while cola_turnos:
     
     time.sleep(1)
     
-    print(f"Atención finalizada: {cliente_actual}")
-    print(f"   (Clientes restantes en la fila: {len(cola_turnos)})\n")
+    print(f" Atención finalizada: {cliente_actual}")
+    print(f"  (Clientes restantes en la fila: {len(cola_turnos)})")
+    print("")
 
 print("Se han atendido todos los turnos. Fila vacía.")
