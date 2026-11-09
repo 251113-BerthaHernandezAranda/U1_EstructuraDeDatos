@@ -1,5 +1,5 @@
 class Nodo:
-    # 1. Se necesitan dos guiones bajos antes y después de init
+    #Se necesitan dos guiones bajos antes y después de init
     def __init__(self, dato):
         self.dato = dato
         self.siguiente = None
